@@ -1,0 +1,39 @@
+html, body{
+    margin:0;
+    padding: 0;
+}
+
+button#tggle_parent{
+    float: left;
+    background-color: blue;
+    color:yellow;
+    width: 500px;
+    height: 100px;
+}
+
+div#parent{
+    float: left;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+
+}
+
+button#tggle_child{
+    float: left;
+    background-color: yellow;
+    color:blue;
+    width: 500px;
+    height: 100px;
+}
+
+div#child{
+    float: left;
+    width: 500px;
+    height: inherit;
+    background-color: red;
+    color:white;
+
+}

@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font:13px/27px Arial,sans-serif;
+    overflow: hidden;
+}
+
+
+/* Content */
+#content{
+    float: right;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(245,245,245);
+}
+/* Content */
+
+/* DIR LIST */
+#show_dir_list{
+    float: right;
+    width: 100%;
+}
+
+#dir_list{
+    float: right;
+    background-color: rgb(235,235,235);
+    width: 100%;
+
+}
+
+#dir_list a{
+    padding-left: 50px;
+    color:black;
+    text-decoration: none;
+}
+
+#dir_list ul{
+    line-height: 12px;
+    padding-left: 15px;
+}
+/* DIR LIST */

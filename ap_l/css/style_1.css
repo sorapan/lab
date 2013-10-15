@@ -1,0 +1,66 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font:13px/27px Arial,sans-serif;
+    overflow: hidden;
+    height: 100%;
+}
+
+#header_box{
+    float: left;
+    color: white;
+    width: 100%;
+    height: 60px;
+    background-color: #002070;
+
+}
+
+#header_box h1{
+    padding-left: 20px;
+}
+
+#header_box h1, #header_box p{
+    display: inline;
+    line-height: 50px;
+}
+
+/* MENU */
+#menu{
+    float: left;
+    width: 15%;
+    height: 100%;
+    position:inherit;
+    background-color: rgb(205,205,205);
+    line-height: 26px;
+}
+
+#menu button{
+    font-size: 14px;
+    text-align: left;
+    padding:5px ;
+    padding-left: 20px;
+    width: 100%;
+    border: 0;
+    background: transparent;
+}
+
+#menu button:hover{
+    background-color:  rgb(185,185,185);
+}
+
+#menu button:active{
+    background-color:  rgb(155,155,155);
+}
+
+/* MENU */
+
+/* iFrame content */
+#content_frame{
+    position: relative;
+    border: 0;
+    float: left;
+    width: 85%;
+    height: 100%;
+    overflow-y: scroll;
+}
+/* iFrame content */

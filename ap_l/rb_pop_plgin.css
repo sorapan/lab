@@ -1,0 +1,17 @@
+#popup_sty01{
+
+    float: left;
+    padding: 10px;
+    top: 200px;
+    left: 500px;
+    position: fixed;
+    height: auto;
+    width: 150px;
+    background-color: white;
+    color:black;
+    text-align: center;
+
+}
+
+#popup_sty01 button{
+}
