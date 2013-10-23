@@ -7,11 +7,6 @@ $(function() {
     //alert(addressValue );
 
 
-    $.rb_ip_custom_pop("dog","dod","god",{
-        header : "god"
-    });
-
-
     $(' .god').click(function(){
 
         $(" #header_box").html($(" .dod").val());
